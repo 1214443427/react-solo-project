@@ -1,0 +1,77 @@
+#root{
+    width: 317px;
+}
+
+.photo{
+    width: 317px;
+    height: 317px;
+    object-fit: None;
+    object-position: 60% 20%;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.namePlate>h1{
+    margin-top: 21px;
+    margin-bottom: 6.2px;
+    font-size: 25px;
+    color:white;
+}
+
+.title{
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.website{
+    margin-top: 8.8px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 6px;
+}
+
+button{
+    display: flex;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+#linkedin{
+    background-image: url("../assets/linkind.png");
+    background-repeat: no-repeat;
+    background-color: #5093E2;
+    background-size: 16px;
+    background-position: 11px 60%;
+    padding-left: 35px;
+    color: #FFF;
+}
+
+#email{
+    background-image: url("../assets/email.png");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 19px 60%;
+    padding-left: 35px;
+}
